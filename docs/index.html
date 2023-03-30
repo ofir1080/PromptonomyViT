@@ -36,6 +36,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/lines.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -250,7 +251,8 @@
       </div>
     </div>
     <!--/ Abstract. -->
-    <hr>
+    <div class="fade_rule_h"></div>
+    <br>
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -264,7 +266,7 @@
   </div>
 </section>
 
-<hr>
+<div class="fade_rule_h"></div>
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -279,21 +281,29 @@
           <img src="./static/images/vis_fig.jpg" style="max-width:90%;">
         </div>
       </div>
-      <!--/ Visual Effects. -->
+
+      
+      <div class="fade_rule_v"></div>
 
       <!-- Matting. -->
-      <div class="column">
+      <div class="column" style="margin-left: 20px;">
         <h2 class="title is-3">Dataset-Task Agreement</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              A polygon represents a real video dataset, and the closer a vertex is to the circle border, the greater the gain from applying that synthetic task. The gains are scaled for comparison
+              A polygon represents a real video dataset, and the closer a vertex is to the circle border, the greater the gain from applying that synthetic task. The gains are scaled for comparison.
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
             </p>
             <img src="./static/images/dt_agreement.jpg" style="max-width:100%;">
           </div>
         </div>
       </div>
     </div>
+
     <!--/ Matting. -->
 
     <!-- Animation. -->
